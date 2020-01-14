@@ -1,0 +1,15 @@
+{
+  "name": "primesoftwaredevelopment/symfony-security",
+  "type": "library",
+  "license": "proprietary",
+  "require": {
+	"symfony/orm-pack": "^1.0",
+	"symfony/security-bundle": "5.0.*"
+  },
+  "autoload": {
+	"psr-4": {
+	  "PrimeSoftware\\Security\\": "src\\Security",
+	  "PrimeSoftware\\Controller\\": "src\\Controller"
+	}
+  }
+},
