@@ -2,8 +2,8 @@
 namespace PrimeSoftware\Controller;
 
 use App\Entity\User;
-use App\Service\EmailService;
-use App\Service\PreferenceService;
+use PrimeSoftware\Service\EmailService;
+use PrimeSoftware\Service\PreferenceService;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
