@@ -1,10 +1,22 @@
 {
+  "repositories": [
+	{
+	  "type": "vcs",
+	  "url": "https://github.com/chrisweller/symfony-email"
+	},
+	{
+	  "type": "vcs",
+	  "url": "https://github.com/chrisweller/symfony-preferences"
+	}
+  ],
   "name": "primesoftwaredevelopment/symfony-security",
   "type": "library",
   "license": "proprietary",
   "require": {
 	"symfony/orm-pack": "^1.0",
-	"symfony/security-bundle": "5.0.*"
+	"symfony/security-bundle": "5.0.*",
+	"primesoftwaredevelopment/symfony-email": "*",
+	"primesoftwaredevelopment/symfony-preferences": "*"
   },
   "autoload": {
 	"psr-4": {
