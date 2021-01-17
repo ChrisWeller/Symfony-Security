@@ -14,7 +14,7 @@
   "license": "proprietary",
   "require": {
 	"symfony/orm-pack": "^1.0",
-	"symfony/security-bundle": "5.0.*",
+	"symfony/security-bundle": "5.*",
 	"primesoftwaredevelopment/symfony-email": "*",
 	"primesoftwaredevelopment/symfony-preferences": "*"
   },
